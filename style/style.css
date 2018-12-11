@@ -10,12 +10,6 @@ main
     min-height: 100%;
 }
 
-select
-{
-    height: 2.5em;
-    text-align: center;
-}
-
 nav
 {
     height: 80px;
@@ -25,48 +19,30 @@ nav
     border-bottom: 2px solid #000000;
 }
 
-.nav
-{
-    text-decoration: none;
-    font-size: 20px;
-    font-family: sans-serif;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.nav:hover
-{
-    color: #D5D5D5;
-}
-
-.nav:active
-{
-    color: #C0C0C0;
-}
-
-.nav:visited
-{
-    color: #CFCFCF;
-}
-
-.nav:visited:hover
-{
-    color: #B5B5B5;
-}
-
-.nav:visited:active
-{
-    color: #A0A0A0;
-}
-
 input
 {
-    height: 70px;
+    border: 1px solid rgb(208, 94, 0);
+    height: 2.5em;
+    width: 75%;
 }
 
-article
+input:nth-child(3)
 {
-    border: 8px solid #0000FF;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    border: 1px solid rgb(208, 94, 0);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: rgb(255, 145, 19);
+    width: 5%;
+}
+
+select
+{
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    height: 2.5em;
+    width: 10%;
 }
 
 footer
