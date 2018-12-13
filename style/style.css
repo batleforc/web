@@ -11,6 +11,11 @@ main
     min-height: 100%;
 }
 
+#page
+{
+    padding-top: 5em;
+}
+
 nav
 {
     position: fixed;
