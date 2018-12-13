@@ -5,13 +5,16 @@
     <head>
 
         <title>Title</title>
-
+    
         <meta charset="UTF-8">
+
         <link rel="shortcut icon" href="ressources/LogoUPJV.png"/>
         <link rel="stylesheet" type="text/css" href="style/normalize.css"/>
         <link rel="stylesheet" type="text/css" href="style/simplegrid.css"/>
         <link rel="stylesheet" type="text/css" href="style/style.css"/>
-    
+        
+        <meta http-equiv="refresh" content="3">
+
     </head>
 
     <body>
@@ -20,15 +23,14 @@
             <nav>
                 <div class="col-2-12">
                     <div class="content">
-                        <form method="get" action="https://www.u-picardie.fr/">
-                            <input type="image" src="ressources/LogoW.png" alt="Écran d'acceuil"/>    
+                        <form method="get" action="index.html">
+                            <input type="image" src="ressources/LogoW.png" alt="Acceuil"/>    
                         </form>
                     </div>
                 </div>
-                <div class="col-1-12">  </div>
-                <div class="col-6-12">
+                <div class="col-8-12">
                     <div class="content">
-                        <form method="post" action="recherche.html">
+                        <form method="post" action="search.html">
                             <select name="Category">
                                 <option value="All">Tous</option>
                                 <option value="Book">Livre</option>
@@ -42,15 +44,15 @@
                                 <option value="Music">Musique</option>
                                 <option value="Art">Art</option>
                             </select>
-                            <input type="text" name="Search" value="Rechercher...">
-                            <input type="image" src="ressources/search.png" alt="Chercher" id="search">
+                            <input type="text" name="Search" placeholder="Rechercher...">
+                            <input type="image" src="ressources/Search.png" alt="Chercher" id="search">
                         </form>
                     </div>
                 </div>
-                <div class="col-3-12">
+                <div class="col-1-12">
                     <div class="content">
                         <form action="cart.html">
-                            <input type="image" src="ressources/cart.png" alt="Écran d'acceuil"/>    
+                            <input type="image" src="ressources/Cart.png" alt="Écran d'acceuil"/>    
                         </form>
                     </div>
                 </div>
@@ -59,7 +61,7 @@
             
         <main>
             <div class="grid grid-pad">
-                <div class="col-2-12">
+                <div class="col-1-12">
                     <div class="content">
                         <item>
                             <h1>Titre</h1>
@@ -67,12 +69,12 @@
                             <p>
                                 teyetguqsfe
                             </p>
-                            <a href='https://fr.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure' title='Page Wikipedia'>Lire la suite</a>
+                            <a href="article.html" title='Page Wikipedia'>Lire la suite</a>
                         </item>
                     </div>
                 </div>
 
-                <div class="col-10-12">
+                <div class="col-11-12">
                     <div class="content">
                         <p>
                             texte à droite
