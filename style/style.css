@@ -28,45 +28,52 @@ nav
     border-bottom: 2px solid #000000;
 }
 
-input
+#bar
 {
-    vertical-align: middle;
-    height: 2.5em;
-    width: 75%;
-    border: none;
+    margin-top: 1em;
 }
 
 select
 {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 2.5em;
     border-top-left-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
     border-left: 1px solid #C0C0C0;
     border-top: 1px solid #C0C0C0;
     border-bottom: 1px solid #C0C0C0;
-    width: 10%;
+}
+input
+{
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 75%;
+    height: 2.5em;
+    border: none;
 }
 
 input[type="text"]
 {
     border-top: 1px solid #C0C0C0;
     border-bottom: 1px solid #C0C0C0;
+    width: 50%;
 }
 
 input[type="image"]
 {
-    height: 4em;
     width: auto;
     text-align: right;
 }
 
 input:nth-child(3)
 {
-    padding-right: 1em;
+    height: 2.5em;
+    padding-right: 0.75em;
     border: 1px solid rgb(208, 94, 0);
     border-top-right-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     background-color: rgb(255, 145, 19);
-    width: 5%;
 }
 
 footer
