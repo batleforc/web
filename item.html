@@ -16,45 +16,48 @@
     </head>
     
     <body>
-            <header>
-                    <nav>
-                        <div class="col-2-12">
-                            <div class="content">
-                                <form method="get" action="index.html">
-                                    <input type="image" src="./ressources/LogoW.png" alt="Acceuil"/>    
-                                </form>
-                            </div>
+        <header>
+            <nav>
+                <div id="bar">
+                    <div class="col-2-12">
+                        <div class="content">
+                            <form method="get" action="index.html">
+                                <input type="image" src="ressources/logo.png" alt="Acceuil"/>    
+                            </form>
                         </div>
-                        <div class="col-8-12">
-                            <div class="content">
-                                <form method="post" action="search.html">
-                                    <select name="Category">
-                                        <option value="All">Tous</option>
-                                        <option value="Book">Livre</option>
-                                        <option value="Fashion">Vêtements</option>
-                                        <option value="Informatics">Informatique</option>
-                                        <option value="Electronics">Électronique</option>
-                                        <option value="Videos">Pr*me Videos</option>
-                                        <option value="Toys">Jeux & Jouets</option>
-                                        <option value="Games">Jeux Vidéo</option>
-                                        <option value="Softwares">Logiciels</option>
-                                        <option value="Music">Musique</option>
-                                        <option value="Art">Art</option>
-                                    </select>
-                                    <input type="text" name="Search" placeholder="Rechercher...">
-                                    <input type="image" src="ressources/search.png" alt="Chercher" id="search">
-                                </form>
-                            </div>
+                    </div>
+                    <div class="col-8-12">
+                        <div class="content">
+                            <form method="post" action="search.html">
+                                <select name="Category">
+                                    <option value="All">Tous</option>
+                                    <option value="Book">Livre</option>
+                                    <option value="Fashion">Vêtements</option>
+                                    <option value="Informatics">Informatique</option>
+                                    <option value="Electronics">Électronique</option>
+                                    <option value="Videos">Pr*me Videos</option>
+                                    <option value="Toys">Jeux & Jouets</option>
+                                    <option value="Games">Jeux Vidéo</option>
+                                    <option value="Softwares">Logiciels</option>
+                                    <option value="Music">Musique</option>
+                                    <option value="Art">Art</option>
+                                </select><input type="text" name="Search" placeholder="Rechercher..."><input type="image" src="ressources/search.png" alt="Rechercher" id="search">
+                            </form>
                         </div>
-                        <div class="col-1-12">
-                            <div class="content">
-                                <form action="cart.html">
-                                    <input type="image" src="ressources/cart.png" alt="Écran d'acceuil"/>    
-                                </form>
-                            </div>
+                    </div>
+                    <div class="col-2-12">
+                        <div class="content">
+                            <a href="cart.html">
+                                <input type="image" src="ressources/cart.png" alt="Panier"/>    
+                            </a>
+                            <a href="account.html">
+                                <input type="image" src="ressources/account.png" alt="Mon Compte"/>    
+                            </a>
                         </div>
-                    </nav>
-            </header>
+                    </div>
+                </div>
+            </nav>
+        </header>
             <main>
                 <div id="page">
                     <div class="col-3-12">
