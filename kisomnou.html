@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<html lang ="fr">
+<html lang ="en">
 
     <head>
 
@@ -15,48 +15,49 @@
     
     </head>
     <body>
-            <header>
-                    <nav>
-                        <div id="bar">
-                            <div class="col-2-12">
-                                <div class="content">
-                                    <form method="get" action="index.html">
-                                        <input type="image" src="ressources/logo.png" alt="Acceuil"/>    
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-8-12">
-                                <div class="content">
-                                    <form method="post" action="search.html">
-                                        <select name="Category">
-                                            <option value="All">Tous</option>
-                                            <option value="Book">Livre</option>
-                                            <option value="Fashion">Vêtements</option>
-                                            <option value="Informatics">Informatique</option>
-                                            <option value="Electronics">Électronique</option>
-                                            <option value="Videos">Pr*me Videos</option>
-                                            <option value="Toys">Jeux & Jouets</option>
-                                            <option value="Games">Jeux Vidéo</option>
-                                            <option value="Softwares">Logiciels</option>
-                                            <option value="Music">Musique</option>
-                                            <option value="Art">Art</option>
-                                        </select><input type="text" name="Search" placeholder="Rechercher..."><input type="image" src="ressources/search.png" alt="Rechercher" id="search">
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="col-2-12">
-                                <div class="content">
-                                    <a href="cart.html">
-                                        <input type="image" src="ressources/cart.png" alt="Panier"/>    
-                                    </a>
-                                    <a href="account.html">
-                                        <input type="image" src="ressources/account.png" alt="Mon Compte"/>    
-                                    </a>
-                                </div>
-                            </div>
+           <header>
+            <nav>
+                <div id="bar">
+                    <div class="col-2-12">
+                        <div class="content">
+                            <form method="post" action="index.html">
+                                <input type="image" src="ressources/logo.png" alt="Acceuil"/>    
+                            </form>
                         </div>
-                    </nav>
-                </header>
+                    </div>
+                    <div class="col-8-12">
+                        <div class="content">
+                            <form method="get" action="search1.html">
+                                <select name="Category">
+                                    <option value="All">Tous</option>
+                                    <option value="Book">Livre</option>
+                                    <option value="Fashion">Vêtements</option>
+                                    <option value="Informatics">Informatique</option>
+                                    <option value="Electronics">Électronique</option>
+                                    <option value="Videos">Pr*me Videos</option>
+                                    <option value="Toys">Jeux & Jouets</option>
+                                    <option value="Games">Jeux Vidéo</option>
+                                    <option value="Softwares">Logiciels</option>
+                                    <option value="Music">Musique</option>
+                                    <option value="Art">Art</option>
+                                </select><input type="text" name="Search" placeholder="Rechercher..."><input type="image" src="ressources/search.png" alt="Rechercher" id="search">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-2-12">
+                        <div class="content">
+                            <form method="post" action="cart.html" class="cart-account">
+                                <input type="image" src="ressources/cart.png" alt="Panier"/>
+                            </form>
+                            <form method="post" action="account.html" class="cart-account">
+                                <input type="image" src="ressources/account.png" alt="Mon Compte"/>    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
         <main>
             <div id="page">
                 <div class="col-1-12"></div>
@@ -93,6 +94,14 @@
             </div>
             
         </main>
+
+        <footer>
+            <h3>Unnamed Entertainment™</h3>
+            <p>
+                Site créé par Théo Denis et Maxime Leriche
+            </p>
+            <a id="kisomnou" href="kisomnou.html">Qui sommes nous?</a>
+        </footer>
 
     </body>
 </html>
