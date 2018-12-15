@@ -54,7 +54,7 @@ label
         font-size: 1em;
 }
 
-.comment
+input[type="text"], input[type="email"]
 {
         width:50%;
         font-family: sans-serif;
