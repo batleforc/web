@@ -24,14 +24,14 @@
                 <div id="bar">
                     <div class="col-2-12">
                         <div class="content">
-                            <form method="get" action="index.html">
+                            <form method="post" action="index.html">
                                 <input type="image" src="ressources/logo.png" alt="Acceuil"/>    
                             </form>
                         </div>
                     </div>
                     <div class="col-8-12">
                         <div class="content">
-                            <form method="post" action="search.html">
+                            <form method="get" action="search1.html">
                                 <select name="Category">
                                     <option value="All">Tous</option>
                                     <option value="Book">Livre</option>
@@ -62,38 +62,118 @@
             </nav>
         </header>
             
-        <main>
-            <div id="page">
-                <div class="grid grid-pad">
-                    <div class="col-1-12">
+        <main id="main">            
+            <div class="grid grid-pad">
+                <p id="titre">Promotions en cours:</p>
+                <div class="article">
+                    <div class="col-2-12">
                         <div class="content">
-                            <article>
-                                <h1>Titre</h1>
-                                <h2>soustitre 1</h2>
-                                <p>
-                                    teyetguqsfedzqDSQFSDQFGDSFQFGQGSQFGZDQFGERQGRQGRSQGQSFGSRQefzqeqf
-                                </p>
-                                <a href="item.html" title='Page Wikipedia'>Lire la suite</a>
-                            </article>
+                            <input class="itemimg" type="image" src="ressources/SSBU.png" alt="Super Smash Bros Ultimate"/>
                         </div>
                     </div>
-
-                    <div class="col-11-12">
+                    <div class="col-9-12">
                         <div class="content">
-                            <p>
-                                texte à droite
+                            <h2><a href="item1.html">Super Smash Bros Ultimate</a></h2>
+                            <p class="desc">
+                                Jeu Super Smash Bros Ultimate pour Nintendo Switch
                             </p>
                         </div>
                     </div>
+                    <div class="col-1-12">
+                        <div class="content">
+                            <h1>
+                                <del>65.90€</del>
+                            </h1>
+                            <h1>
+                                55.45€
+                            </h1>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="article">
+                    <div class="col-2-12">
+                        <div class="content">
+                            <input class="itemimg" type="image" src="ressources/Switch.png" alt="Nintendo Switch"/>
+                        </div>
+                    </div>
+                    <div class="col-9-12">
+                        <div class="content">
+                            <h2><a href="item2.html">Console Nintendo Switch</a></h2>
+                            <p class="desc">
+                                Console Portable de Salon Nintendo Switch
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-12">
+                        <div class="content">
+                            <h1>
+                                <del>295.95€</del>
+                            </h1>
+                            <h1>
+                                275.00€
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="col-2-12">
+                        <div class="content">
+                            <input class="itemimg" type="image" src="ressources/SwitchSSBU.png" alt="Nintendo Switch SSBU"/>
+                        </div>
+                    </div>
+                    <div class="col-9-12">
+                        <div class="content">
+                            <h2><a href="item3.html">Switch Édition Super Smash Bros</a></h2>
+                            <p class="desc">
+                                Console Nintendo Switch édition Limitée Super Smash Bros
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-12">
+                        <div class="content">
+                            <h1>
+                                <del>350.99€</del>
+                            </h1>
+                            <h1>
+                                349.99€
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="col-2-12">
+                        <div class="content">
+                            <input class="itemimg" type="image" src="ressources/RP.png" alt="Set de dés de Jeu de Rôle"/>
+                        </div>
+                    </div>
+                    <div class="col-9-12">
+                        <div class="content">
+                            <h2><a href="item4.html">Set dés Role Play</a></h2>
+                            <p class="desc">
+                               Set de dés de Jeu de Rôle, contenant un d4, un d6, un d8, un d10, un d100, un d 12, un d20
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-1-12">
+                        <div class="content">
+                            <h1>
+                                <del>14.90€</del>
+                            </h1>
+                            <h1>
+                                7.45€
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>        
         </main>
 
         <footer>
-            <h3>DU TEXTE</h3>
+            <h3>Unnamed Entertainment™</h3>
             <p>
-                site créé par Théo Denis et moi je m'incruste (maxime)
+                Site créé par Théo Denis et Maxime Leriche
             </p>
+            <a id="kisomnou" href="kisomnou.html">Qui sommes nous?<a>
         </footer>
         
     </body>
