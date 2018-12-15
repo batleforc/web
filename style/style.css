@@ -3,6 +3,10 @@ html
     font-size: 14px;
 }
 
+.cart-account
+{
+    display: inline;
+}
 
 main
 {
