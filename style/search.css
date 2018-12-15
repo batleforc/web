@@ -1,0 +1,68 @@
+#page
+{
+    background-color: #FFFFFF;    
+}
+
+h3
+{
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+h4
+{
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+strong
+{
+    color: orange;
+}
+
+#mainpage
+{
+    background-color: #8CD2FF;
+    border-radius: 15px;
+}
+
+.article
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: red;
+}
+
+.itemimg
+{
+    height: 5em;
+    width: auto;
+    vertical-align: middle;
+    border-right: 1px solid #424242;
+}
+
+.desc
+{
+    color: grey;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+h2
+{
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+h1
+{
+    font-family: sans-serif;
+    text-align: right;
+}
+
+span
+{
+    display: block;
+}
