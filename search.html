@@ -20,14 +20,14 @@
                 <div id="bar">
                     <div class="col-2-12">
                         <div class="content">
-                            <form method="get" action="index.html">
+                            <form method="post" action="index.html">
                                 <input type="image" src="ressources/logo.png" alt="Acceuil"/>    
                             </form>
                         </div>
                     </div>
                     <div class="col-8-12">
                         <div class="content">
-                            <form method="post" action="search.html">
+                            <form method="get" action="search.html">
                                 <select name="Category">
                                     <option value="All">Tous</option>
                                     <option value="Book">Livre</option>
@@ -40,18 +40,18 @@
                                     <option value="Softwares">Logiciels</option>
                                     <option value="Music">Musique</option>
                                     <option value="Art">Art</option>
-                                </select><input type="text" name="Search" placeholder="Rechercher..."><input type="image" src="ressources/search.png" alt="Rechercher" id="search">
+                                </select><input type="text" name="Search" value="Star Wars"><input type="image" src="ressources/search.png" alt="Rechercher" id="search">
                             </form>
                         </div>
                     </div>
                     <div class="col-2-12">
                         <div class="content">
-                            <a href="cart.html">
-                                <input type="image" src="ressources/cart.png" alt="Panier"/>    
-                            </a>
-                            <a href="account.html">
+                            <form method="post" action="cart.html">
+                                <input type="image" src="ressources/cart.png" alt="Panier"/>
+                            </form>
+                            <form method="post" action="account.html">
                                 <input type="image" src="ressources/account.png" alt="Mon Compte"/>    
-                            </a>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -67,12 +67,12 @@
                         <div class="article">
                             <div class="col-2-12">
                                 <div class="content">
-                                    <input class="itemimg" type="image" src="ressources/SWIntBluRay.png"/>
+                                    <input class="itemimg" type="image" src="ressources/SWIntBluRay.png" alt="Star Wars Blu-Ray"/>
                                 </div>
                             </div>
                             <div class="col-9-12">
                                 <div class="content">
-                                    <h2><a href="itemSW1" alt="Star Wars Coffret Blu-Ray">Star Wars L'intégrale Coffret Blu-Ray</a><h2>
+                                    <h2><a href="itemSW1">Star Wars L'intégrale Coffret Blu-Ray</a></h2>
                                     <p class="desc">
                                         Coffret Blu-Ray de l'intégral de la saga Star Wars Épisodes I à VI
                                     </p>
@@ -81,7 +81,7 @@
                             <div class="col-1-12">
                                 <div class="content">
                                     <h1>
-                                        65,90€
+                                        65.90€
                                     </h1>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@
                             </div>
                             <div class="col-9-12">
                                 <div class="content">
-                                    <h2><a href="itemSW2" alt="POP! Vinyl Bubble Head C3PO">POP! Figurine StarWars C3-PO</a><h2>
+                                    <h2><a href="itemSW2">POP! Figurine StarWars C3-PO</a></h2>
                                     <p class="desc">
                                         Figurine POP! Vinyl Bubble Head Star Wars C3-PO (Z6-PO pour les puristes) 10cm
                                     </p>
@@ -103,7 +103,7 @@
                             <div class="col-1-12">
                                 <div class="content">
                                     <h1>
-                                        15,99€
+                                        15.99€
                                     </h1>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@
                             </div>
                             <div class="col-9-12">
                                 <div class="content">
-                                    <h2><a href="itemSW1" alt="Star Wars Coffret Blu-Ray">Star Wars Cantina Livre de recettes</a><h2>
+                                    <h2><a href="itemSW1">Star Wars Cantina Livre de recettes</a></h2>
                                     <p class="desc">
                                         <span>Star Wars Cantina: les 40 meilleures recettes de la galaxie.</span>
                                         <span>40 recettes inspirées du riche univers de Star Wars, par l'auteur Gastronogeek.</span> 
@@ -126,7 +126,7 @@
                             <div class="col-1-12">
                                 <div class="content">
                                     <h1>
-                                        25€
+                                        25.99€
                                     </h1>
                                 </div>
                             </div>
