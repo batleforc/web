@@ -19,51 +19,56 @@
 
     <body>
 
-        <header>
-            <nav>
-                <div id="bar">
-                    <div class="col-2-12">
-                        <div class="content">
-                            <form method="get" action="index.html">
-                                <input type="image" src="ressources/logo.png" alt="Acceuil"/>    
-                            </form>
+        <body>
+            <header>
+                <nav>
+                    <div id="bar">
+                        <div class="col-2-12">
+                            <div class="content">
+                                <form method="get" action="index.html">
+                                    <input type="image" src="ressources/logo.png" alt="Acceuil"/>    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-8-12">
+                            <div class="content">
+                                <form method="post" action="search.html">
+                                    <select name="Category">
+                                        <option value="All">Tous</option>
+                                        <option value="Book">Livre</option>
+                                        <option value="Fashion">Vêtements</option>
+                                        <option value="Informatics">Informatique</option>
+                                        <option value="Electronics">Électronique</option>
+                                        <option value="Videos">Pr*me Videos</option>
+                                        <option value="Toys">Jeux & Jouets</option>
+                                        <option value="Games">Jeux Vidéo</option>
+                                        <option value="Softwares">Logiciels</option>
+                                        <option value="Music">Musique</option>
+                                        <option value="Art">Art</option>
+                                    </select><input type="text" name="Search" placeholder="Rechercher..."><input type="image" src="ressources/search.png" alt="Rechercher" id="search">
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-2-12">
+                            <div class="content">
+                                <form method="post" action="cart.html" class="cart-account">
+                                    <input type="image" src="ressources/cart.png" alt="Panier"/>
+                                </form>
+                                <form method="post" action="account.html" class="cart-account">
+                                    <input type="image" src="ressources/account.png" alt="Mon Compte"/>    
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-8-12">
-                        <div class="content">
-                            <form method="post" action="search.html">
-                                <select name="Category">
-                                    <option value="All">Tous</option>
-                                    <option value="Book">Livre</option>
-                                    <option value="Fashion">Vêtements</option>
-                                    <option value="Informatics">Informatique</option>
-                                    <option value="Electronics">Électronique</option>
-                                    <option value="Videos">Pr*me Videos</option>
-                                    <option value="Toys">Jeux & Jouets</option>
-                                    <option value="Games">Jeux Vidéo</option>
-                                    <option value="Softwares">Logiciels</option>
-                                    <option value="Music">Musique</option>
-                                    <option value="Art">Art</option>
-                                </select><input type="text" name="Search" placeholder="Rechercher..."><input type="image" src="ressources/search.png" alt="Rechercher" id="search">
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-2-12">
-                        <div class="content">
-                            <form method="post" action="cart.html" class="cart-account">
-                                <input type="image" src="ressources/cart.png" alt="Panier"/>
-                            </form>
-                            <form method="post" action="account.html" class="cart-account">
-                                <input type="image" src="ressources/account.png" alt="Mon Compte"/>    
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
+                </nav>
+            </header>
         <main>
             <div id="page">
                 <h1>Welcome, S.DELAHAYE</h1>
+                <div class="col-3-12">
+                    <h2>Historique et statut des commande:</h2>
+                    <p>ICI ce trouve l'état de vos commande veuillez a le consulter réguliérement</p>
+                </div>
                 
             </div>
         </main>
