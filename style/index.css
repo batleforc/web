@@ -1,0 +1,9 @@
+input:nth-child(3)
+{
+    height: 2.5em;
+    padding-right: 0.75em;
+    border: 1px solid rgb(208, 94, 0);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: rgb(255, 145, 19);
+}
