@@ -3,6 +3,11 @@ html
     font-size: 14px;
 }
 
+main
+{
+    padding-top: 5em;
+}
+
 .cart-account
 {
     display: inline;
@@ -13,11 +18,6 @@ main
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
-}
-
-#page
-{
-    padding-top: 5em;
 }
 
 nav
